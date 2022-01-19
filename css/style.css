@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
 
+:root {
+
+/* ### Primary */
+
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+
+/* ### Neutral */
+
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+  }
+
+
 body {
     font-family: 'Spartan', sans-serif;
+}
+
+main h1 {
+  color: var(--Very-Dark-Magenta)
+}
+
+main p {
+  color: var(--Dark-Grayish-Magenta)
+}
+
+main small {
+  color: var(--Soft-Pink)
+}
+
+main h3{
+  color: var(--White)
+}
+
+.card p {
+  color: var(--White)
+}
+
+.stars p {
+  font-weight: bold;
+  color: var(--Very-Dark-Magenta)
 }
