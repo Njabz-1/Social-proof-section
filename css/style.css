@@ -18,8 +18,10 @@
 body {
     font-family: 'Spartan', sans-serif;
 }
-
-main h1 {
+p{
+  line-height: 1.8;
+}
+main h1, .stars p {
   color: var(--Very-Dark-Magenta)
 }
 
@@ -37,9 +39,4 @@ main h3{
 
 .card p {
   color: var(--White)
-}
-
-.stars p {
-  font-weight: bold;
-  color: var(--Very-Dark-Magenta)
 }
