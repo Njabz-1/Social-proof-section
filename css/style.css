@@ -71,3 +71,36 @@ small {
     gap: 1rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .showcase {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .stars{
+    display: inline-block;
+  }
+  .stars > div:nth-child(1){
+    max-width: 90%;
+  }
+  .stars > div:nth-child(2) {
+    transform: translateX(5%);
+    max-width: 90%;
+  }
+  .stars > div:nth-child(3) {
+    transform: translateX(10%);
+    max-width: 90%;
+  }
+  main{
+    max-width: auto;
+  }
+
+  .testimonials > div:nth-child(2) {
+    transform: translateY(10%);
+  }
+
+  .testimonials > div:nth-child(3) {
+    transform: translateY(20%);
+  }
+
+}
