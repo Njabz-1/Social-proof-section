@@ -34,8 +34,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://njabz-1.github.io/Social-proof-section/)
+- Live Site URL: (https://njabz-1.github.io/Social-proof-section/)
 
 ## My process
 
