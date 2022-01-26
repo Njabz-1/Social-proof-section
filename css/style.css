@@ -42,5 +42,32 @@ main h3{
 }
 
 .testimonials .card {
-  background-color: var(--Soft-Pink)
+  background-color: var(--Very-Dark-Magenta)
+}
+
+.testimonials h3 {
+  color: var(--White);
+  font-weight: 800;
+}
+
+small {
+  color: var(--Soft-Pink)
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 600px;
+    margin: auto;
+  }
+  .stars  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+  }
+
+  .testimonials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+  }
 }
